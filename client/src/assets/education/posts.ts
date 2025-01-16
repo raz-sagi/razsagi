@@ -4,7 +4,6 @@ import post1 from "../images/education/post1.jpeg"
 import post2 from "../images/education/post2.jpeg"
 import post3 from "../images/education/post3.jpeg"
 import post4 from "../images/education/post4.jpeg"
-import post5 from "../images/education/post5.jpeg"
 
 export const Eposts: iPost[] = [
     {
@@ -59,7 +58,7 @@ export const Eposts: iPost[] = [
     {
         id: 5,
         type: 'img',
-        src: post5,
+        src: 'post5',
         description: `עושים הכל על מנת ששנת הלימודים תיפתח הכי חלק שאפשר, גם בהסעות לילדי החינוך המיוחד. 
         תודה למנכ״לית העירייה על היוזמה החשובה, הרגעת ההורים והילדים לקראת היום הראשון ללימודים.`
     }
