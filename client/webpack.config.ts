@@ -1,10 +1,13 @@
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+const path = require('path');
 
 module.exports = {
   mode: "development",
   entry: './src/index.tsx',
   output: {
-    publicPath: '/'
+    publicPath: '/',
+    path: path.resolve(__dirname, 'dist'), // Outputs to the 'dist' folder
+    filename: 'bundle.js',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
