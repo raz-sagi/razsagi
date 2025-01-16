@@ -1,17 +1,22 @@
 import { iPost } from "../types/Post";
+import post0 from "../images/development/post0.jpeg"
+import post1 from "../images/development/post1.jpeg"
+import post2 from "../images/development/post2.jpeg"
+import post3 from "../images/development/post3.jpeg"
+import post4 from "../images/development/post4.jpeg"
 
 export const Dposts: iPost[] = [
     {
         id: 0,
         type: 'img',
-        src: '/assets/images/development/post0.jpeg',
+        src: post0,
         description: `תושבי רח' אבן-עזרא ונוסעי הקווים שעוברים בו - תתחדשו.
         מחר תיקונים וסיום בע"ה.`
     },
     {
         id: 1,
         type: 'img',
-        src: '/assets/images/development/post1.jpeg',
+        src: post1,
         description: `תושבי רחוב גרניט תתחדשו:
         הוספנו 13 חניות חדשות לאורך הרחוב למענכם.
         בנוסף החזרנו את הרחוב להיות חד-סטרי לכל אורכו.
@@ -21,21 +26,21 @@ export const Dposts: iPost[] = [
     {
         id: 2,
         type: 'img',
-        src: '/assets/images/development/post2.jpeg',
+        src: post2,
         description: `תושבי נדין גורדימר, 
         הכשרנו למענכם 11 חניות חדשות. אמנם לקח קצת זמן, אבל היי, היה שווה לחכות..`
     },
     {
         id: 3,
         type: 'img',
-        src: '/assets/images/development/post3.jpeg',
+        src: post3,
         description: `סוללים את כבישי שכונת פסגת טל, 8 שנות המתנה הסתיימו.
         תתחדשו!`
     },
     {
         id: 4,
         type: 'img',
-        src: '/assets/images/development/post4.jpeg',
+        src: post4,
         description: `חניון חדש נסלל ונוסף לרווחת הקונים בשוק העירוני!
         שמח לעדכן כי ביום שישי הקרוב, תוכלו לחנות בנחת בחניון החדש שהקמנו עבורכם! 
         החניון כולל 252 מקומות חניה.
