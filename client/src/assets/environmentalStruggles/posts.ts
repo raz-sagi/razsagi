@@ -1,10 +1,15 @@
 import { iPost } from "../types/Post";
+import post0 from "../images/eStruggles/post0.jpeg"
+import post1 from "../images/eStruggles/post1.jpeg"
+import post2 from "../images/eStruggles/post2.jpeg"
+import post3 from "../images/eStruggles/post3.jpeg"
+import post4 from "../images/eStruggles/post4.jpeg"
 
 export const ESposts: iPost[] = [
     {
         id: 0,
         type: 'img',
-        src: '/assets/images/eStruggles/post0.jpeg',
+        src: post0,
         description: `תושבות ותושבים יקרים,
         עיריית ראש העין פועלת באמצעים רבים ובאופן יום-יומי במטרה למגר את תופעת שריפות הפסולת שממזרח ומצפון לראש העין. 
         בין הפעולות שנקטנו בשבועות ובימים האחרונים:
@@ -19,7 +24,7 @@ export const ESposts: iPost[] = [
     {
         id: 1,
         type: 'video',
-        src: '/assets/images/eStruggles/post1.jpeg',
+        src: post1,
         description: `
         שואלים אותי ״מה הלאה?״, מה עושים עכשיו במאבק תחנת הכח?
         אז קודם כל, אנחנו לא מוותרים!
@@ -32,14 +37,14 @@ export const ESposts: iPost[] = [
     {
         id: 2,
         type: 'img',
-        src: '/assets/images/eStruggles/post2.jpeg',
+        src: post2,
         description: `הבוקר, שלחתי מכתב (שני) בנושא העסקת החברה הסינית, צ׳יינה הארבור, המיועדת לקחת חלק בהקמת תחנת הכח בצומת קסם. המכתב נשלח לכל חברי ועדת חוץ ובטחון, עם העתקים לשר הביטחון, שר האנרגיה וראש המל"ל!
         מדובר בניסיון מסוכן שנועד להכניס חברה סינית, אשר נפסלה לעבוד בישראל מטעמים ביטחוניים, להקמה ותפעול של מתקן אנרגיה רגיש ביותר, בצמוד לערי מגורים במרכז הארץ וצירי התנועה המרכזיים של ישראל.`
     },
     {
         id: 3,
         type: 'img',
-        src: '/assets/images/eStruggles/post3.jpeg',
+        src: post3,
         description: `שומרים על הסביבה בראש העין 🌎
         השרה להגנת הסביבה עידית סילמן: "נסייע לקידום ראש העין ירוקה בכל שיידרש". 
         אתמול (20.😎 התקיימה פגישה מקצועית של השרה להגנת הסביבה עידית סילמן, צוות משרדה, רשות הטבע והגנים והמינהל האזרחי עם מנכ"לית העירייה, סגן ראש העיר, חברי מועצה, מנהל מינהל שפ"ע, מנהלי איכות הסביבה, מהנדס העי, אדריכל העיר ואנוכי.
@@ -53,7 +58,7 @@ export const ESposts: iPost[] = [
     {
         id: 4,
         type: 'video',
-        src: '/assets/images/eStruggles/post4.jpeg',
+        src: post4,
         description: `הבוקר, בבית אל, מול וועדת התכנון העליונה ביו"ש, בדיון התנגדויות לאזור התעשייה שער שומרון, הבהרתי מעל לכל ספק - אנו נעשה הכל כדי למנוע את הקמת אזור התעסוקה המתוכנן ונדאג שהתכנית לא תצא לפועל!
         אין שום צורך באזור תעסוקה נוסף באזור השומרון, כאשר אזורי התעסוקה הקיימים אינם מלאים ואינם מנוצלים. אין שום סיבה לפגוע במסדרון האקולוגי הסמוך לראש העין ולערער את יציבות הטבע הסובב את העיר. בעיקר, אין שום סיבה לסכן את בטחון אזרחי המדינה בשינוע אלפי פועלים פלסטינים לאזור התעשייה הממוקם בתוך שטחי ישראל. בטח לא אחרי ה-7 לאוקטובר.
         עם זאת, אחרי שאמרנו מה לא, נגיד מה כן. אין ספק שיישובי שער שומרון, אלקנה ואורנית זקוקים להכנסה על מנת לתפקד כראוי. בדיון הצגתי, יחד עם יוסי ארן, תושב פעיל בנושאים סביבתיים בעיר, את הצעתנו לתכנית חלופית. התכנית כוללת הקמת חוות שרתים וחווה לאגירת אנרגיה, בשטח מחצבת הנסון הקיימת. חוות אלו יהוו מקור הכנסה משמעותי למועצות המקומיות והאזוריות, ללא סכנה לבטחון התושבים וללא פגיעה בשטחים הפתוחים והירוקים, ההולכים ומתמעטים באזור.

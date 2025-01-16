@@ -1,10 +1,12 @@
 import { iPost } from "../types/Post";
+import post0 from "../images/security/post0.jpeg"
+import post1 from "../images/security/post1.jpeg"
 
 export const Sposts: iPost[] = [
     {
         id: 0,
         type: 'img',
-        src: '/assets/images/security/post0.jpeg',
+        src: post0,
         description: `אתמול אחר הצהריים ערכנו סיור עם ניצב פרץ עמר, ראש מנהלת הגנה אזרחית, לאורך גדר המערכת, ממחסום רנתיס ועד ואדי רבה. 
         בפגישה שנערכה לאחר מכן במשרדי, הצגנו לניצב עמר את תפיסת הביטחון העירונית, ובמסגרתה את הקמת המשמר העירוני.
         ניצב פרץ עמר התחייב לתעדף את הצטיידות מערך האבטחה העירוני ופריסת האמצעים בעיר,כחלק מההיערכות הבטחונית הארצית.`
@@ -12,7 +14,7 @@ export const Sposts: iPost[] = [
     {
         id: 1,
         type: 'video',
-        src: '/assets/images/security/post1.jpeg',
+        src: post1,
         description: `דואגים לבטיחות הילדים! עוד ממ״מים הוצבו בגני הילדים.
         `
     }

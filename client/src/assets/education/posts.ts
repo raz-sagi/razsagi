@@ -1,10 +1,16 @@
 import { iPost } from "../types/Post";
+import post0 from "../images/education/post0.jpeg"
+import post1 from "../images/education/post1.jpeg"
+import post2 from "../images/education/post2.jpeg"
+import post3 from "../images/education/post3.jpeg"
+import post4 from "../images/education/post4.jpeg"
+import post5 from "../images/education/post5.jpeg"
 
 export const Eposts: iPost[] = [
     {
         id: 0,
         type: 'img',
-        src: '/assets/images/education/post0.jpeg',
+        src: post0,
         description: `זכיתי להדליק נר ראשון שלוש פעמים מרגשות ביותר הערב. 
         הראשון בבית הספר הכוללני לאוטיזם, הדלקתי נר עם תלמידה מתוקה ובהזדמנות זו, חשפתי עם מנהלת בית הספר את שם בית הספר - פלא! שם שנבחר בעקבות תהליך עומק שהתקיים בשיתוף הצוות, ההורים והתלמידים. 
         לאחר מכן הצטרפתי לשני ארועי הוקרה למשפחות המילואים והקבע היקרות, באירוע מיוחד שערכנו במיוחד עבורן. הדלקנו נר ראשון יחדיו, בתפילה להצלחת חיילי צה"ל והשבת החטופים לביתם עוד בחג החנוכה. 
@@ -14,20 +20,20 @@ export const Eposts: iPost[] = [
     {
         id: 1,
         type: 'img',
-        src: '/assets/images/education/post1.jpeg',
+        src: post1,
         description: `ממשיכים בכל הכוח לבנות את קריות החינוך, שכוללות: ספריות, אודיטוריום, אולם ספורט וכמובן עשרות כיתות אם, מעבדות, חדרי ספח ומשרדים. 
         העתיד כבר כאן 🙏`
     },
     {
         id: 2,
         type: 'img',
-        src: '/assets/images/education/post2.jpeg',
+        src: post2,
         description: `הבוקר ברובע הנביאים, פתיחת אשכול הגנים 455! כיף לראות את הילדים מגיעים בהתרגשות לגן החדש ❤️`
     },
     {
         id: 3,
         type: 'img',
-        src: '/assets/images/education/post3.jpeg',
+        src: post3,
         description: `מועדים לשמחה, 
         אנחנו אולי בחופשה מרוכזת בחוה"מ סוכות,
         אבל לא מפסיקים לעבוד לרגע! 
@@ -45,7 +51,7 @@ export const Eposts: iPost[] = [
     {
         id: 4,
         type: 'img',
-        src: '/assets/images/education/post4.jpeg',
+        src: post4,
         description: `גם באוגוסט, המשכנו לחבק את משפחות המילואים עם קייטנה מיוחדת לילדים של משרתי מילואים בפועל, פעילויות חינמיות ומהנות לכל המשפחה ואטרקציות מפתיעות לסוף החופש. 
         הקרן לסיוע משרתי המילואים הגיעה לאגם כדי לפגוש את המשפחות ולסייע להן להגיש בקשות ולהבין את זכויותיהן.
         משפחות יקרות, אתן לא לבד - כולנו יחד איתכן!`
@@ -53,7 +59,7 @@ export const Eposts: iPost[] = [
     {
         id: 5,
         type: 'img',
-        src: '/assets/images/education/post5.jpeg',
+        src: post5,
         description: `עושים הכל על מנת ששנת הלימודים תיפתח הכי חלק שאפשר, גם בהסעות לילדי החינוך המיוחד. 
         תודה למנכ״לית העירייה על היוזמה החשובה, הרגעת ההורים והילדים לקראת היום הראשון ללימודים.`
     }
