@@ -1,6 +1,5 @@
 import { iPost } from "../types/Post";
 import post0 from "../images/eStruggles/post0.jpeg"
-import post1 from "../images/eStruggles/post1.jpeg"
 import post2 from "../images/eStruggles/post2.jpeg"
 import post3 from "../images/eStruggles/post3.jpeg"
 
@@ -23,7 +22,7 @@ export const ESposts: iPost[] = [
     {
         id: 1,
         type: 'video',
-        src: post1,
+        src: 'post1',
         description: `
         שואלים אותי ״מה הלאה?״, מה עושים עכשיו במאבק תחנת הכח?
         אז קודם כל, אנחנו לא מוותרים!
