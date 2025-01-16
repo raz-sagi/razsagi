@@ -27,6 +27,16 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.mp4$/, // Matches files ending with .mp4 extension
+        use: {
+          loader: 'file-loader', // Use the file-loader
+          options: {
+            name: 'assets/images/[name].[ext]', // Output filename pattern
+            outputPath: 'static', // Optional output directory for the file
+          },
+        },
+      }
       // {
       //   test: /\.(jpg|png)$/,
       //   use: {
