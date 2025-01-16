@@ -2,7 +2,7 @@ app = "raz-sagi"
 primary_region = "fra"
 
 [build]
-  builder = "Dockerfile"
+  builder = "dockerfile"
 
 [http_service]
   internal_port = 8080
