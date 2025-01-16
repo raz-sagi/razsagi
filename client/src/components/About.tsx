@@ -1,7 +1,7 @@
 import { textAlign } from '@mui/system';
 import React, { useState } from 'react';
 import { styled } from 'styled-components';
-
+import raz from '../assets/images/raz.jpeg'
 const Main = styled.div({
     backgroundColor: 'F1F5F9',
     padding: '40px 30px',
@@ -43,7 +43,7 @@ const About: React.FC = () => {
     <Main id='about'>
             <Headline> אודותי </Headline>
         <Text>
-        <Img src='/assets/images/raz.jpeg'></Img>
+        <Img src={raz}></Img>
             <Description>
                 אל"מ (מיל') רז שגיא, נשוי ואב לשלושה. מכהן כראש עיריית ראש העין מחודש מרץ 2024
             </Description>
