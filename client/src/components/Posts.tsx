@@ -30,6 +30,46 @@ interface IPostsProps {
     headline: string
 }
 
+const Video = styled.video`
+  width: 100%;
+  max-height: 200px; /* Or whatever height you want */
+`;
+
+const Image = styled('img')({
+  width: '100%',
+  height: '100%',
+  maxHeight: '200px',
+  objectFit: 'contain'
+})
+
+const PostComp = styled(Card)({
+  height: '25em',
+  display: 'flex',
+  flexDirection: 'column', // Important for content to take up available space
+});
+
+const ScrollableCardContent = styled(CardContent)({
+  overflowY: 'auto', // Enable vertical scrolling
+  flexGrow: 1,       // Allow content to expand within the card
+  direction: 'ltr',
+  '&::-webkit-scrollbar': { // Target the WebKit scrollbar (Chrome, Safari)
+    width: '8px', // Adjust width as needed
+  },
+  // '&::-webkit-scrollbar-track': {
+  //   background: '#f1f1f1', // Color of the track
+  // },
+  '&::-webkit-scrollbar-thumb': {
+    background: '#888', // Color of the thumb
+    borderRadius: '4px', // Rounded corners for the thumb
+  },
+  // textAlign: 'right',
+  paddingRight: '16px', /* Add some right padding */
+  paddingLeft: 0,
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center'
+});
+
 const Posts: React.FC<IPostsProps> = ({posts, backroundColor, textColor, headline}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     // const posts: iPost[] = [{
@@ -66,8 +106,8 @@ const Posts: React.FC<IPostsProps> = ({posts, backroundColor, textColor, headlin
           <MdArrowBackIos />
         </IconButton>
   
-        <Card sx={{ width: "80%", textAlign: "center" }}>
-          { posts[currentIndex].type === 'img' ?
+        <PostComp sx={{ width: "80%", textAlign: "center", backgroundColor: 'black'}}>
+          {/* { posts[currentIndex].type === 'img' ?
             <CardMedia
             component="img"
             height="200"
@@ -77,19 +117,31 @@ const Posts: React.FC<IPostsProps> = ({posts, backroundColor, textColor, headlin
             <CardMedia
             component="video"
             height="200"
-            image={posts[currentIndex].src}
+            src={posts[currentIndex].src}
+            // image={posts[currentIndex].src}
             // alt={posts[currentIndex].type}
             />
-          }
-          <CardContent>
+          } */}
+          {posts[currentIndex].type === 'img' ? (
+            <Image
+              src={posts[currentIndex].src}
+              alt={posts[currentIndex].description} // Use description as alt text
+            />
+          ) : (
+            <Video controls preload="metadata"> {/* Use <video> element */}
+              <source src={posts[currentIndex].src} type="video/mp4" />
+              Your browser does not support the video tag.
+            </Video>
+          )}
+          <ScrollableCardContent sx={{overflowY: 'scroll', backgroundColor: 'white'}}>
             {/* <Typography variant="h6" gutterBottom>
               {posts[currentIndex].type.toUpperCase()}
             </Typography> */}
             <Typography variant="body2" color="text.secondary" style={{direction: 'rtl'}}>
               {posts[currentIndex].description}
             </Typography>
-          </CardContent>
-        </Card>
+          </ScrollableCardContent>
+        </PostComp>
   
         <IconButton onClick={handleNext}>
           <MdArrowForwardIos />

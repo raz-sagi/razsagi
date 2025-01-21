@@ -128,7 +128,7 @@ const Navbar: React.FC = () => {
       {isMobile && (
         <Routes isOpen={isMenuOpen} isMobile={isMobile}>
           <NavLink
-        href='about'
+        href='#about'
         isActive={location.pathname === 'about'}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
@@ -136,14 +136,20 @@ const Navbar: React.FC = () => {
         אודותי 
       </NavLink>
       <NavLink
-        href='members'
+        href='#members'
         isActive={location.pathname === 'about'}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         
         חברי הסיעה
       </NavLink>
-      {/* on click set isopen falses */}
+      <NavLink
+        href='#posts'
+        isActive={location.pathname === 'posts'}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        פוסטים
+      </NavLink>
         </Routes>
       )}
        <Icons>
