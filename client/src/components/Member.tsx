@@ -15,7 +15,8 @@ const Main = styled.div({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: '10%',
-    margin: '10px'
+    margin: '10px',
+    cursor: 'pointer'
 })
 
 const Img = styled.img({

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 // import { useAppContext } from '../AppContext';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
 import { useAppContext } from '../AppContext';
 
 const Nav = styled.nav({
@@ -21,7 +22,7 @@ const Nav = styled.nav({
     top: '0',
     width: '100%',
     // fontFamily: 'VarelaRound',
-    // zIndex: 2,
+    zIndex: 2,
     boxShadow: '0px 5px 5px #282c34',
     justifyContent: 'space-between'
 })
@@ -29,7 +30,7 @@ const Nav = styled.nav({
 
 const Logo = styled.div({
     backgroundImage: 'linear-gradient(to right, #384959, #6A89A7)',
-    width: '120px',
+    width: '140px',
     height: '100%',
     fontSize: '10px',
     padding: '2px',
@@ -113,16 +114,16 @@ const Navbar: React.FC = () => {
         אודותי
       </NavLink>
       <NavLink
-        href='#members'
-        isActive={location.pathname === 'members'}
-      >
-        חברי הסיעה
-      </NavLink>
-      <NavLink
         href='#posts'
         isActive={location.pathname === 'posts'}
       >
         פוסטים
+      </NavLink>
+      <NavLink
+        href='#members'
+        isActive={location.pathname === 'members'}
+      >
+        חברי הסיעה
       </NavLink>
       </Routes>)}
       {isMobile && (
@@ -136,6 +137,13 @@ const Navbar: React.FC = () => {
         אודותי 
       </NavLink>
       <NavLink
+        href='#posts'
+        isActive={location.pathname === 'posts'}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        פוסטים
+      </NavLink>
+      <NavLink
         href='#members'
         isActive={location.pathname === 'about'}
         onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -143,18 +151,12 @@ const Navbar: React.FC = () => {
         
         חברי הסיעה
       </NavLink>
-      <NavLink
-        href='#posts'
-        isActive={location.pathname === 'posts'}
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        פוסטים
-      </NavLink>
         </Routes>
       )}
        <Icons>
-            <FaSquareInstagram size={40}/>
+            <FaSquareInstagram size={40} onClick={() => window.open('https://www.instagram.com/razsagi10')} />
             <FaFacebookSquare size={40} onClick={() => window.open('https://www.facebook.com/razsagi.il')}/>
+            <AiFillTikTok size={50} onClick={() => window.open('https://www.tiktok.com/@raz_sagi')}/>
         </Icons>
     </Nav>
   );
