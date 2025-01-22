@@ -1,10 +1,13 @@
 import { iPost } from "../types/Post";
+import post0 from "../images/general/post0.mp4"
+import post1 from "../images/general/post1.mp4"
+import post2 from "../images/general/post2.mp4"
 
 export const Gposts: iPost[] = [
     {
         id: 0,
-        type: '',
-        src: 'post0',
+        type: 'video',
+        src: post0,
         description: `
         אני שמח להודיע שמועצת העיר אישרה הערב את התקציב לשנת 2025.
         השנה החלטנו, למרות שנה כלכלית מורכבת, לתעדף ולהעלות את תקציבי הביטחון, החינוך, הניקיון וגינון העיר.
@@ -13,18 +16,17 @@ export const Gposts: iPost[] = [
     },
     {
         id: 1,
-        type: '',
-        src: 'post1',
-        description: `סיכום שנת 2024 בתמונות 🤳
+        type: 'video',
+        src: post1,
+        description: `סיכום שנת 2024 בתמונות 
         צפו בסרטון המסכם את הרגעים הגדולים והפרויקטים המשמעותיים שהפכו את השנה הזו לבלתי נשכחת👇`
     },
     {
         id: 2,
-        type: '',
-        src: 'post2',
+        type: 'video',
+        src: post2,
         description: `היום, כ״ט בנובמבר, תאריך ההצבעה באו"ם שאשרה את הקמת מדינת ישראל ב-1947. אז גם אנחנו בוחרים לפרסם  על התחלות חדשות:
         חיבורים בין צעירים ומבוגרים, דתיים וחילוניים, תושבי השכונות הותיקות והחדשות, שחברו יחד לחשוב ולעמול על חזון עירוני משותף. 
-        מוזמנים לצפות בסרטון ולקבל הצצה לתחילת התהליך:
-        https://www.facebook.com/share/v/12DFPWF6uDH/`
+        מוזמנים לצפות בסרטון ולקבל הצצה לתחילת התהליך:`
     }
 ]

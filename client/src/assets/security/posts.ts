@@ -1,5 +1,6 @@
 import { iPost } from "../types/Post";
 import post0 from "../images/security/post0.jpeg"
+import post1 from "../images/security/post1.mp4"
 
 export const Sposts: iPost[] = [
     {
@@ -13,7 +14,7 @@ export const Sposts: iPost[] = [
     {
         id: 1,
         type: 'video',
-        src: 'post1',
+        src: post1,
         description: `דואגים לבטיחות הילדים! עוד ממ״מים הוצבו בגני הילדים.
         `
     }
