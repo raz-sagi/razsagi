@@ -48,6 +48,15 @@
     display: 'flex',
     flexDirection: 'column', // Important for content to take up available space
   });
+  const PostDate = styled('div') ({
+    backgroundColor: 'white',
+    direction: 'rtl',
+    fontSize: '80%',
+    paddingBottom: '10px',
+    textAlign: 'right',
+    paddingRight: '10px',
+    paddingTop: '10px'
+  })
 
   const ScrollableCardContent = styled(CardContent)({
     overflowY: 'auto', // Enable vertical scrolling
@@ -107,11 +116,11 @@
           <PostComp sx={{ width: "80%", textAlign: "center", backgroundColor: 'black'}}>
             {posts[currentIndex].type === 'img' ? (
               <Image
-                src={posts[currentIndex].src}
-                alt={posts[currentIndex].description} // Use description as alt text
+              src={posts[currentIndex].src}
+              alt={posts[currentIndex].description} // Use description as alt text
               />
-            ) : (
-              <Video controls preload="metadata" key={currentIndex}> {/* Use <video> element */}
+              ) : (
+                <Video controls preload="metadata" key={currentIndex}> {/* Use <video> element */}
                 <source src={posts[currentIndex].src} type="video/mp4" />
                 Your browser does not support the video tag.
               </Video>
@@ -128,6 +137,7 @@
                 
               </ContentWrapper>
             </ScrollableCardContent>
+            <PostDate>{posts[currentIndex]?.date}</PostDate>
           </PostComp>
     
           <IconButton onClick={handleNext}>

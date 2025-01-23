@@ -28,7 +28,7 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(mp4|webm|ogg|avi)$/i, // Matches files ending with .mp4 extension
+        test: /\.(mp4|webm|ogg|avi|mov)$/i, // Matches files ending with .mp4 extension
         type: 'asset/resource'
       }
       // {

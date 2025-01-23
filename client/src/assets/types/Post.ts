@@ -3,4 +3,5 @@ export type iPost = {
     type: string
     src: string
     description: string
+    date?: string
 }
