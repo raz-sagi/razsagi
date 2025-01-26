@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
         <div style={{fontSize: '15px', fontWeight: 'bold', textShadow: '1px 1px 1px black'}}>רז שגיא</div>
         ראש עיריית ראש העין
         <br />
-        י״ור סיעת התחדשות
+        יו״ר סיעת התחדשות
       </Logo>
 
       {isMobile ? (
