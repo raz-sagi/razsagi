@@ -2,10 +2,33 @@ import { iPost } from "../types/Post";
 import post0 from "../images/general/post0.mp4"
 import post1 from "../images/general/post1.mp4"
 import post2 from "../images/general/post2.mp4"
+import post3 from "../images/general/post3.jpeg"
+import post4 from "../images/general/post4.mp4"
 
 export const Gposts: iPost[] = [
     {
         id: 0,
+        type: 'video',
+        src: post4,
+        description: `רגע לפני שנסב לשולחן החג, אני מאחל לכם פסח שמח ומזמין אתכם לראות מה הספקנו בשנה האחרונה ומה מתוכנן לעתיד 
+        צפו בסרטון ומצרף את תפילתי להשבת החטופים ולשלום חיילי צה"ל`,
+        date: `10 באפריל, 2025`
+    },
+    {
+        id: 1,
+        type: 'img',
+        src: post3,
+        description: `הבטחתי וקיימתי!
+        הפודטראקים הגיעו לראש העין!
+        אחד כבר פועל - בשכונת נופרים ואחד נוסף בכניסה ליער (פתוח בשבת) ייפתח בשבוע הבא. אחרי פסח יפתח שלישי באגם (כשר).
+        אחרי יום העצמאות יפתחו פודטראקים גם ברובע הנביאים ובמתחם הקבלנים.
+        במקביל, מוקם בית קפה חדש בהיכל התרבות (קפה נינה) וגם הוא יפתח בקיץ.
+        אני נותן לתמונות לדבר😉
+        מחכים לכם עם מפית מוכנה...`,
+        date: `2 באפריל, 2025`
+    },
+    {
+        id: 2,
         type: 'video',
         src: post0,
         description: `
@@ -16,7 +39,7 @@ export const Gposts: iPost[] = [
         date: '7 בינואר, 2025'
     },
     {
-        id: 1,
+        id: 3,
         type: 'video',
         src: post1,
         description: `סיכום שנת 2024 בתמונות 
@@ -24,7 +47,7 @@ export const Gposts: iPost[] = [
         date: '6 בינואר 2025'
     },
     {
-        id: 2,
+        id: 4,
         type: 'video',
         src: post2,
         description: `היום, כ״ט בנובמבר, תאריך ההצבעה באו"ם שאשרה את הקמת מדינת ישראל ב-1947. אז גם אנחנו בוחרים לפרסם  על התחלות חדשות:

@@ -1,10 +1,24 @@
 import { iPost } from "../types/Post";
 import post0 from "../images/security/post0.jpeg"
 import post1 from "../images/security/post1.mp4"
+import post2 from "../images/security/post2.jpeg"
 
 export const Sposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post2,
+        description: `משמר העיר ראש העין – שומרים על הבית ביחד!
+        אנחנו מחזקים את הביטחון בראש העין עם הקמת משמר העיר – כוח מתנדבים עירוני.
+        זה בנוסף לכיתות הכוננות שכבר קיימות, פעילות ומיומנות.
+        המשמר העיר יפעל בשגרה ובחירום ויהווה חיזוק קהילתי משמעותי לביטחון ולרציפות התפקודית.
+        לא במקום המשטרה וכוחות הביטחון, אלא תוספת כוח זמין בשטח.
+        נפרסם בקרוב דרכי תקשורת להתנדבות.
+        ביחד, שומרים על ראש העין.`,
+        date: `6 באפריל, 2025`
+    },
+    {
+        id: 1,
         type: 'img',
         src: post0,
         description: `אתמול אחר הצהריים ערכנו סיור עם ניצב פרץ עמר, ראש מנהלת הגנה אזרחית, לאורך גדר המערכת, ממחסום רנתיס ועד ואדי רבה. 
@@ -14,7 +28,7 @@ export const Sposts: iPost[] = [
 
     },
     {
-        id: 1,
+        id: 2,
         type: 'video',
         src: post1,
         description: `דואגים לבטיחות הילדים! עוד ממ״מים הוצבו בגני הילדים.
