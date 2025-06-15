@@ -1,14 +1,28 @@
 import { iPost } from "../types/Post";
-import post0 from "../images/cultureS/post0.jpeg"
 import post1 from "../images/cultureS/post1.jpeg"
 import post2 from "../images/cultureS/post2.jpeg"
 import post3 from "../images/cultureS/post3.jpeg"
 import post4 from "../images/cultureS/post4.jpeg"
-
+import post5 from "../images/cultureS/post5.jpeg"
 
 export const Cposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post5,
+        description: `ממשיכים להכניס אנרגיה וספורט לשכונות!
+        שמח לעדכן על המשך התקנת שולחנות פינג פונג בגנים ציבוריים ברחבי העיר – עוד צעד קטן לכיוון קהילה פעילה, בריאה ומחוברת 💪
+        שולחנות חדשים הותקנו לאחרונה במיקומים הבאים:
+        ✔️ גן שייקה אופיר (רובע האומנים B – גן תדהר)
+        ✔️ שצ"פ הגבעה (רובע הנביאים E)
+        ✔️ גן נדין גורדימר (רובע חתני פרס נובל A)
+        ✔️ גן פעמון (שכונת נווה אפק)
+        ✔️ גן דקר (שכונת המייסדים)
+        אז תביאו מחבט, קחו חבר או ילד, ותגיעו להתאמן – או פשוט ליהנות ממשחק טוב באוויר הפתוח 🏓☀️`,
+        date: `11 ביוני, 2025`
+    },
+    {
+        id: 1,
         type: 'img',
         src: post1,
         description: `צעד נוסף לקראת הכשרת האצטדיון העירוני והתאמתו לתקנות ההתאחדות לכדורגל 
@@ -16,7 +30,7 @@ export const Cposts: iPost[] = [
         date: '12 בדצמבר, 2024'
     },
     {
-        id: 1,
+        id: 2,
         type: 'img',
         src: post2,
         description: `התוכנית להקמת מרכז תיירות, פנאי ובילוי במגדל צדק, אושרה במהלך חודש אוקטובר להפקדה בוועדה המחוזית.
@@ -27,7 +41,7 @@ export const Cposts: iPost[] = [
         date: '3 בנובמבר, 2024'
     },
     {
-        id: 2,
+        id: 3,
         type: 'img',
         src: post3,
         description: `התחילו השיפוצים להכשרת מגרש הכדורגל ⚽ וקבלת אישור ההתאחדות, על מנת שניתן יהיה לארח משחקים בעיר.
@@ -35,7 +49,7 @@ export const Cposts: iPost[] = [
         date: '25 בספטמבר, 2024'
     },
     {
-        id: 3,
+        id: 4,
         type: 'img',
         src: post4,
         description: `תושבי ראש העין היקרים,
