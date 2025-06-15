@@ -4,10 +4,20 @@ import post1 from "../images/general/post1.mp4"
 import post2 from "../images/general/post2.mp4"
 import post3 from "../images/general/post3.jpeg"
 import post4 from "../images/general/post4.mp4"
+import post5 from "../images/general/post5.mp4"
 
 export const Gposts: iPost[] = [
     {
         id: 0,
+        type: 'video',
+        src: post5,
+        description: `פארק לב העיר עומד להיפתח – חדש, מרגש ולגמרי שלנו!
+        מזרקה מוזיקלית, מתחם נינג'ה, מתקנים לכל גיל ובית קפה צמוד.
+        ביום רביעי (11.6) חונכים את הפארק שכולו זיכרונות של פעם וחוויות של היום.`,
+        date: `9 ביוני, 2025`
+    },
+    {
+        id: 1,
         type: 'video',
         src: post4,
         description: `רגע לפני שנסב לשולחן החג, אני מאחל לכם פסח שמח ומזמין אתכם לראות מה הספקנו בשנה האחרונה ומה מתוכנן לעתיד 
@@ -15,7 +25,7 @@ export const Gposts: iPost[] = [
         date: `10 באפריל, 2025`
     },
     {
-        id: 1,
+        id: 2,
         type: 'img',
         src: post3,
         description: `הבטחתי וקיימתי!
@@ -28,7 +38,7 @@ export const Gposts: iPost[] = [
         date: `2 באפריל, 2025`
     },
     {
-        id: 2,
+        id: 3,
         type: 'video',
         src: post0,
         description: `
@@ -39,7 +49,7 @@ export const Gposts: iPost[] = [
         date: '7 בינואר, 2025'
     },
     {
-        id: 3,
+        id: 4,
         type: 'video',
         src: post1,
         description: `סיכום שנת 2024 בתמונות 
@@ -47,7 +57,7 @@ export const Gposts: iPost[] = [
         date: '6 בינואר 2025'
     },
     {
-        id: 4,
+        id: 5,
         type: 'video',
         src: post2,
         description: `היום, כ״ט בנובמבר, תאריך ההצבעה באו"ם שאשרה את הקמת מדינת ישראל ב-1947. אז גם אנחנו בוחרים לפרסם  על התחלות חדשות:
