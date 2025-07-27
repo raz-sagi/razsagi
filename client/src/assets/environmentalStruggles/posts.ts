@@ -6,10 +6,18 @@ import post3 from "../images/eStruggles/post3.jpeg"
 import post4 from "../images/eStruggles/post4.mov"
 import post5 from "../images/eStruggles/post5.jpeg"
 import post6 from "../images/eStruggles/post6.jpeg"
+import post7 from "../images/eStruggles/post7.mp4"
 
 export const ESposts: iPost[] = [
     {
         id: 0,
+        type: 'video',
+        src: post7,
+        description: `המאבק ברעש המטוסים ממשיך בכוח!`,
+        date: `14 ביולי, 2025`
+    },
+    {
+        id: 1,
         type: 'img',
         src: post6,
         description: `בהתאם לדרישת פורום ראשי הרשויות באזור, פעלה אמש יחידת דוד ולכדה בלילה שלוש משאיות שניסו להבריח פסולת בלתי חוקית דרך כביש חוצה שומרון.
@@ -21,7 +29,7 @@ export const ESposts: iPost[] = [
         date: `22 במאי, 2025`
     },
     {
-        id: 1,
+        id: 2,
         type: 'img',
         src: post5,
         description: `הגענו (שוב) מטה המאבק ברעש המטוסים ואני, ללשכת מנכ"ל רשות תעופה אוירית (רת"א) כדי לעמוד על זכותנו לישון בשקט. לפגישה הוזמנו גם הסמנכ"לים של חברות התעופה אל-על, ישראייר וארקיע.
@@ -36,7 +44,7 @@ export const ESposts: iPost[] = [
         date: `24 במרץ, 2025`
     },
     {
-        id: 2,
+        id: 3,
         type: 'img',
         src: post0,
         description: `תושבות ותושבים יקרים,
@@ -52,7 +60,7 @@ export const ESposts: iPost[] = [
         date: '3 בדצמבר, 2024'
     },
     {
-        id: 3,
+        id: 4,
         type: 'video',
         src: post1,
         description: `
@@ -66,7 +74,7 @@ export const ESposts: iPost[] = [
         date: '25 בנובמבר, 2024'
     },
     {
-        id: 4,
+        id: 5,
         type: 'img',
         src: post2,
         description: `הבוקר, שלחתי מכתב (שני) בנושא העסקת החברה הסינית, צ׳יינה הארבור, המיועדת לקחת חלק בהקמת תחנת הכח בצומת קסם. המכתב נשלח לכל חברי ועדת חוץ ובטחון, עם העתקים לשר הביטחון, שר האנרגיה וראש המל"ל!
@@ -74,7 +82,7 @@ export const ESposts: iPost[] = [
         date: '20 בנובמבר, 2024'
     },
     {
-        id: 5,
+        id: 6,
         type: 'img',
         src: post3,
         description: `שומרים על הסביבה בראש העין 🌎
@@ -89,7 +97,7 @@ export const ESposts: iPost[] = [
         date: '21 באוגוסט, 2024'
     },
     {
-        id: 6,
+        id: 7,
         type: 'video',
         src: post4,
         description: `הבוקר, בבית אל, מול וועדת התכנון העליונה ביו"ש, בדיון התנגדויות לאזור התעשייה שער שומרון, הבהרתי מעל לכל ספק - אנו נעשה הכל כדי למנוע את הקמת אזור התעסוקה המתוכנן ונדאג שהתכנית לא תצא לפועל!
