@@ -6,10 +6,23 @@ import post3 from "../images/development/post3.jpeg"
 import post4 from "../images/development/post4.jpeg"
 import post5 from "../images/development/post5.mp4"
 import post6 from "../images/development/post6.jpeg"
+import post7 from "../images/development/post7.jpg"
 
 export const Dposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post7,
+        description: `תושבי רובע הנביאים, המרכז המסחרי החדש שלכם בדרך!
+        תתעלמו משמועות, אחרי עיכוב שנגרם כתוצאה מהמלחמה — העבודות כעת מתבצעות בכל הכוח.
+        אני עוקב מקרוב שהכול מתקדם כפי שצריך, וכבר רואים התקדמות מרשימה.
+        איזה כיף לחשוב שבעוד כשנתיים כולנו נוכל ליהנות שם ממקום בילוי קרוב לבית — לקפוץ לקנות בגדים, לשבת לאכול פיצה, להתפנק על גלידה, או סתם להסתובב.
+        שבת שלום וסוף שבוע נעים לכולם!
+        💙`,
+        date: `4 ביולי, 2025`
+    },
+    {
+        id: 1,
         type: 'img',
         src: post6,
         description: `תושבי ראש העין תתחדשו,  שביל אופניים נוסף נחנך בשבילכם ולמענכם. 
@@ -18,7 +31,7 @@ export const Dposts: iPost[] = [
         date: `3 במרץ, 2025`
     },
     {
-        id: 1,
+        id: 2,
         type: 'video',
         src: post5,
         description: `רעש? No more
@@ -28,7 +41,7 @@ export const Dposts: iPost[] = [
         date: '5 בפברואר, 2025'
     },
     {
-        id: 2,
+        id: 3,
         type: 'img',
         src: post0,
         description: `תושבי רח' אבן-עזרא ונוסעי הקווים שעוברים בו - תתחדשו.
@@ -36,7 +49,7 @@ export const Dposts: iPost[] = [
         date: '2 בדצמבר, 2024'
     },
     {
-        id: 3,
+        id: 4,
         type: 'img',
         src: post1,
         description: `תושבי רחוב גרניט תתחדשו:
@@ -47,7 +60,7 @@ export const Dposts: iPost[] = [
         date: '7 בנובמבר, 2024'
     },
     {
-        id: 4,
+        id: 5,
         type: 'img',
         src: post2,
         description: `תושבי נדין גורדימר, 
@@ -55,7 +68,7 @@ export const Dposts: iPost[] = [
         date: '29 בספטמבר, 2024'
     },
     {
-        id: 5,
+        id: 6,
         type: 'img',
         src: post3,
         description: `סוללים את כבישי שכונת פסגת טל, 8 שנות המתנה הסתיימו.
@@ -63,7 +76,7 @@ export const Dposts: iPost[] = [
         date: '13 בספטמבר, 2024'
     },
     {
-        id: 6,
+        id: 7,
         type: 'img',
         src: post4,
         description: `חניון חדש נסלל ונוסף לרווחת הקונים בשוק העירוני!
