@@ -6,10 +6,44 @@ import post3 from "../images/general/post3.jpeg"
 import post4 from "../images/general/post4.mp4"
 import post5 from "../images/general/post5.jpg"
 import post6 from "../images/general/post6.mp4"
+import post7 from "../images/general/post7.jpg"
+import post8 from "../images/general/post8.jpg"
+import post9 from "../images/general/post9.mp4"
 
 export const Gposts: iPost[] = [
     {
         id: 0,
+        type: 'video',
+        src: post9,
+        description: `תכנית המתאר הכוללנית יוצאת לדרך...
+        ראש העין מתחדשת`,
+        date: `18 בספטמבר 2025`
+    },
+    {
+        id: 1,
+        type: 'img',
+        src: post8,
+        description: `הכנימה הצימרית, מיררה את חיינו בשנים האחרונות  וגרמה לחומר הדביק שהכתים מכוניות ומדרכות.
+        אגף גנים ונוף במינהל שפ''ע, החל הקיץ בטיפול ניסיוני כנגד הכנימה הצמרית ויש להניח ששמחתם לגלות שהפרשת הכנימה נעלמה.
+        עד כה הטיפול משיג תוצאות טובות, אולם אנחנו ממשיכים במעקב צמוד עם האגרונום העירוני, כדי לוודא שהטיפול יעיל גם בשיא פעילות המזיק (בחודשים אוגוסט-ספטמבר).
+        נקווה שהמצב ימשיך ובתחילת אוקטובר, תהיה לכולנו בשורה ודאית וטובה.
+        תחזיקו אצבעות – אנחנו קרובים לפריצת דרך!`,
+        date: `3 באוגוסט, 2025`
+    },
+    {
+        id: 2,
+        type: 'img',
+        src: post7,
+        description: `🌼 הפרחים מדברים בעד עצמם– ראש העין פורחת! 🌼
+        ציניות אדומות וצהובות, עצי לגסטרמיה בגוונים מהממים וניחוח של קיץ מתוק באוויר  ☀️🌳
+        אנחנו ממשיכים לייפות את העיר שלנו והופכים אותה לצבעונית ומזמינה יותר.
+        בכיכרות, בצירים הראשיים ובגנים, הפרחים החדשים כבר כאן ותראו אותם כשתיהיו בחוץ ותיהנו.
+        גאווה גדולה לראות את הצוותים שלנו עובדים יום יום, כדי שראש העין תהיה פשוט וואו.
+        תודה לאגף גנים ונוף במינהל שפ"ע על כל צבע, שתיל ועלה 💚`,
+        date: `24 ביולי, 2025`
+    },
+    {
+        id: 3,
         type: 'video',
         src: post6,
         description: `📚 גם בזמן חירום – ממשיכים לקרוא!
@@ -19,7 +53,7 @@ export const Gposts: iPost[] = [
         date: `22 ביוני, 2025`
     },
     {
-        id: 1,
+        id: 4,
         type: 'img',
         src: post5,
         description: `פותחים את פארק לב העיר! 🌳🎉
@@ -32,7 +66,7 @@ export const Gposts: iPost[] = [
         date: `11 ביוני, 2025`
     },
     {
-        id: 2,
+        id: 5,
         type: 'video',
         src: post4,
         description: `רגע לפני שנסב לשולחן החג, אני מאחל לכם פסח שמח ומזמין אתכם לראות מה הספקנו בשנה האחרונה ומה מתוכנן לעתיד 
@@ -40,7 +74,7 @@ export const Gposts: iPost[] = [
         date: `10 באפריל, 2025`
     },
     {
-        id: 3,
+        id: 6,
         type: 'img',
         src: post3,
         description: `הבטחתי וקיימתי!
@@ -53,7 +87,7 @@ export const Gposts: iPost[] = [
         date: `2 באפריל, 2025`
     },
     {
-        id: 4,
+        id: 7,
         type: 'video',
         src: post0,
         description: `
@@ -64,7 +98,7 @@ export const Gposts: iPost[] = [
         date: '7 בינואר, 2025'
     },
     {
-        id: 5,
+        id: 8,
         type: 'video',
         src: post1,
         description: `סיכום שנת 2024 בתמונות 
@@ -72,7 +106,7 @@ export const Gposts: iPost[] = [
         date: '6 בינואר 2025'
     },
     {
-        id: 6,
+        id: 9,
         type: 'video',
         src: post2,
         description: `היום, כ״ט בנובמבר, תאריך ההצבעה באו"ם שאשרה את הקמת מדינת ישראל ב-1947. אז גם אנחנו בוחרים לפרסם  על התחלות חדשות:
