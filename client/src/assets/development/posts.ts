@@ -17,17 +17,113 @@ import post15 from "../images/development/post15.jpg"
 import post16 from "../images/development/post16.mp4"
 import post18 from "../images/development/post18.jpg"
 import post19 from "../images/development/post19.mp4"
+import post20 from "../images/development/post20.png"
+import post21 from "../images/development/post21.png"
+import post22 from "../images/development/post22.jpg"
+import post23 from "../images/development/post23.png"
+import post24 from "../images/development/post24.png"
+import post25 from "../images/development/post25.png"
+import post26 from "../images/development/post26.jpg"
+import post27 from "../images/development/post27.jpg"
 
 export const Dposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post27,
+        description: `לאחר תהליך תכנון וביצוע מקצועי, הסתיים פרויקט המיגון האקוסטי במנהרות ברחוב שבזי.
+על פי דו״ח הסיכום של חברת רזאור הנדסה, נמצא כי המיגון האקוסטי יעיל ומפחית באופן משמעותי את רעש התחבורה המגיע לבתי המגורים הסמוכים.
+ "קפיצות הרעש" הקיצוניות רוככו ויעד הפחתת הרעש הושג ואף מעבר לכך : ירידה של ~10 דציבל (A(dB ביום ו-
+~7 דציבל (A(dB בלילה, דבר שהחזיר את השקט לתושבי האזור. 
+נמשיך לפעול לשיפור איכות החיים והסביבה בשכונות העיר. 🌿
+שבת שלום 💐`,
+        date: `26 בדצמבר, 2025`
+    },
+    {
+        id: 1,
+        type: 'img',
+        src: post26,
+        description: `תושבי מתחם הנביאים... 
+העבודות לפיתוח בכל רחבי השכונה מתבצעות ובקצב גבוה!
+הגינות הציבוריות, המדרכות, שתי כיכרות ראשונות לקראת סיום, והחל משבוע הבא, נתחיל בעבודות קרצוף, סלילה וצביעה של הכבישים ברחובות:
+זכריה 
+יואל
+יחזקאל 
+צפניה
+שמעיה
+אוריהו 
+מרים (מכיכר אליהו ועד שמואל).
+** הודעה מסודרת עם התאריכים ושעות העבודה, תופץ בקרוב.
+ראש העין מתחדשת!`,
+        date: `24 בדצמבר, 2025`
+    },
+    {
+        id: 2,
+        type: 'img',
+        src: post25,
+        description: `עדכון חשוב ומשמח על מחלף אבן העזר.
+ראש העין מתחדשת, גם בדרכים
+צפו >>>`,
+        link: 'https://www.facebook.com/reel/4095321190780999',
+        date: `14 בדצמבר, 2025`
+    },
+    {
+        id: 3,
+        type: 'img',
+        src: post24,
+        description: `תושבי רובע הנביאים... 
+עדכון  משמח לגבי קניון צים
+צפו>>>`,
+        link: 'https://www.facebook.com/reel/1287667839789437',
+        date: `8 בדצמבר, 2025`
+    },
+    {
+        id: 4,
+        type: 'img',
+        src: post23,
+        description: `לפני 5 שנים נסגרה טיפת חלב ברחוב שבזי-העצמאות. תחנת טיפת חלב אחת לא מספיקה לראש העין ובשעה טובה, לאחר גמר השיפוצים, אנחנו פותחים תחנה חדשה ברחוב ואגנר ג'ון קנדי
+צפו>>>`,
+        link: 'https://www.facebook.com/reel/1219843370026495',
+        date: `7 בדצמבר, 2025`
+    },
+    {
+        id: 5,
+        type: 'img',
+        src: post22,
+        description: `תושבי שכונת נופרים, יש לי בשורה נפלאה עבורכם!
+כפי שהבטחתי לכם במפגש תושבים, בעוד כשבועיים יחלו עבודות הפיתוח באזור רחוב אריאל שרון ואורי אריאב.
+העבודות יכללו סלילת שכבת אספלט נוספת, הקמת מדרכות, תשתיות והתקנת רמזורים בצמתים. נשפר את הנגישות, הבטיחות ואיכות החיים של כולנו.
+משך העבודות מוערך בכ־8 חודשים, ובסיומן נקבל סביבה חדשה, נוחה ומסודרת יותר.
+נמשיך לפעול למען התושבים.
+ראש העין מתחדשת.`,
+        date: `24 בנובמבר, 2025`
+    },
+    {
+        id: 6,
+        type: 'img',
+        src: post21,
+        description: `דואגים לאיכות החיים, מפחיתים את הרעש ושומרים גם על בעלי הכנף...`,
+        link: 'https://www.facebook.com/reel/4418039075081865',
+        date: `10 בנובמבר, 2025`
+    },
+    {
+        id: 7,
+        type: 'img',
+        src: post20,
+        description: `תושבי שכונת נופרים, צעד נוסף לשיפור הנגישות, הפחתת העומסים וחיזוק החיבור בין השכונה לעיר.
+ממשיכים בעשייה והתחדשות גם למען תחבורה טובה, לנוחות ולבטיחות של כולם 💪🚗🌳`,
+        link: 'https://www.facebook.com/reel/3841937796107072',
+        date: `2 בנובמבר, 2025`
+    },
+    {
+        id: 8,
         type: 'video',
         src: post19,
         description: `שדרוג צומת הרחובות יהושוע בן נון - אפיק - השריון והפיכתה לכיכר פשוט מתבקשת ובעוד כחודש מסתיים התכנון ולאחר מכן נצא לביצוע. מוזמנים לצפות`,
         date: `23 באוקטובר, 2025`
     },
     {
-        id: 1,
+        id: 9,
         type: 'img',
         src: post18,
         description: `עצים הם הרבה יותר מנוף ירוק, הם תורמים ישירות לאיכות החיים בעיר: מצלים ומקררים את הרחובות, משפרים את איכות האוויר, מפחיתים רעש וזיהום ויוצרים סביבה נעימה ובריאה יותר לכולנו. 🌳
@@ -37,7 +133,7 @@ export const Dposts: iPost[] = [
         date: `22 באוקטובר, 2025`
     },
     {
-        id: 2,
+        id: 10,
         type: 'video',
         src: post16,
         description: `תושבי שכונת הנביאים, בקרוב מאוד תהנו מכניסה ויציאה נוספים לשכונה...
@@ -45,7 +141,7 @@ export const Dposts: iPost[] = [
         date: `29 בספטמבר, 2025`
     },
     {
-        id: 3,
+        id: 11,
         type: 'img',
         src: post15,
         description: `💚 פותחים שנה חדשה עם ירוק בעיניים! 💚
@@ -55,7 +151,7 @@ export const Dposts: iPost[] = [
         date: `19 בספטמבר, 2025`
     },
     {
-        id: 4,
+        id: 12,
         type: 'img',
         src: post11,
         description: `אם את/ה נהג משאית, אוטובוס, בעל קארוון, או נגרר, בודאי תברך על התאורה החדשה בחניון האצ"ל.
@@ -65,7 +161,7 @@ export const Dposts: iPost[] = [
         date: `9 בספטמבר, 2025`
     },
         {
-        id: 5,
+        id: 13,
         type: 'video',
         src: post14,
         description: `בקרוב מאוד, תוכלו להינות שוב ממגרש הסקייטפארק שברחוב קיבוץ גלויות...
@@ -73,14 +169,14 @@ export const Dposts: iPost[] = [
         date: `3 בספטמבר, 2025`
     },
     {
-        id: 6,
+        id: 14,
         type: 'video',
         src: post13,
         description: `קווי המתח: העובדות בלי ניסיונות הפחדה. צפו בהסבר לגבי תכנון המעבר של קווי המתח>>>`,
         date: `24 באוגוסט, 2025`
     },
     {
-        id: 7,
+        id: 15,
         type: 'img',
         src: post10,
         description: `🏗️ מתקדמים עם פיתוח רובע הנביאים!
@@ -90,7 +186,7 @@ export const Dposts: iPost[] = [
         date: `7 באוגוסט, 2025`
     },
     {
-        id: 8,
+        id: 16,
         type: 'img',
         src: post9,
         description: `תושבי שכונת דניה, תתחדשו 💐
@@ -99,7 +195,7 @@ export const Dposts: iPost[] = [
         date: `4 באוגוסט, 2025`
     },
     {
-        id: 9,
+        id: 17,
         type: 'img',
         src: post7,
         description: `תושבי רובע הנביאים, המרכז המסחרי החדש שלכם בדרך!
@@ -111,7 +207,7 @@ export const Dposts: iPost[] = [
         date: `4 ביולי, 2025`
     },
     {
-        id: 10,
+        id: 18,
         type: 'video',
         src: post8,
         description: `כחלק מהמאמץ לשפר את איכות החיים של כולנו, הכשרנו חניונים ייעודיים לרכב כבד - משאיות, אוטובוסים ונגררים, מחוץ לשכונות המגורים.
@@ -119,7 +215,7 @@ export const Dposts: iPost[] = [
         date: `1 ביולי, 2025`
     },
     {
-        id: 11,
+        id: 19,
         type: 'img',
         src: post6,
         description: `תושבי ראש העין תתחדשו,  שביל אופניים נוסף נחנך בשבילכם ולמענכם. 
@@ -128,7 +224,7 @@ export const Dposts: iPost[] = [
         date: `3 במרץ, 2025`
     },
     {
-        id: 12,
+        id: 20,
         type: 'video',
         src: post5,
         description: `רעש? No more
@@ -138,7 +234,7 @@ export const Dposts: iPost[] = [
         date: '5 בפברואר, 2025'
     },
     {
-        id: 13,
+        id: 21,
         type: 'img',
         src: post0,
         description: `תושבי רח' אבן-עזרא ונוסעי הקווים שעוברים בו - תתחדשו.
@@ -146,7 +242,7 @@ export const Dposts: iPost[] = [
         date: '2 בדצמבר, 2024'
     },
     {
-        id: 14,
+        id: 22,
         type: 'img',
         src: post1,
         description: `תושבי רחוב גרניט תתחדשו:
@@ -157,7 +253,7 @@ export const Dposts: iPost[] = [
         date: '7 בנובמבר, 2024'
     },
     {
-        id: 15,
+        id: 23,
         type: 'img',
         src: post2,
         description: `תושבי נדין גורדימר, 
@@ -165,7 +261,7 @@ export const Dposts: iPost[] = [
         date: '29 בספטמבר, 2024'
     },
     {
-        id: 16,
+        id: 24,
         type: 'img',
         src: post3,
         description: `סוללים את כבישי שכונת פסגת טל, 8 שנות המתנה הסתיימו.
@@ -173,7 +269,7 @@ export const Dposts: iPost[] = [
         date: '13 בספטמבר, 2024'
     },
     {
-        id: 17,
+        id: 25,
         type: 'img',
         src: post4,
         description: `חניון חדש נסלל ונוסף לרווחת הקונים בשוק העירוני!

@@ -133,6 +133,9 @@
 
                 <Typography variant="body2" color="text.secondary" style={{direction: 'rtl', padding: 0}}>
                   {posts[currentIndex].description}
+                  {posts[currentIndex].link && <a href={posts[currentIndex].link} target="_blank">
+                    לחצו כאן
+                  </a>}
                 </Typography>
                 
               </ContentWrapper>

@@ -3,5 +3,6 @@ export type iPost = {
     type: string
     src: string
     description: string
+    link?: string
     date?: string
 }

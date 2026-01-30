@@ -5,10 +5,31 @@ import post3 from "../images/cultureS/post3.mp4"
 import post4 from "../images/cultureS/post4.jpeg"
 import post5 from "../images/cultureS/post5.jpeg"
 import post6 from "../images/cultureS/post6.jpg"
+import post7 from "../images/cultureS/post7.png"
+import post8 from "../images/cultureS/post8.png"
 
 export const Cposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post8,
+        description: `הצעתם להביא לעיר פאדל?! 
+הקשבנו לכם ובקרוב ייפתחו 3 מגרשים בעיר
+מוזמנים לצפות>>>`,
+        link: 'https://www.facebook.com/reel/3853744101426214',
+        date: '25 בדצמבר, 2025'
+    },
+    {
+        id: 1,
+        type: 'img',
+        src: post7,
+        description: `שמח לעדכן כי הספרייה העירונית ברחוב זכריה משה, נפתחה השבוע לאחר שיפוץ עמוק ובסוף דצמבר, תיפתח הסיפרייה החדשה... 
+צפו>>>`,
+        link: 'https://www.facebook.com/reel/1710635646577895',
+        date: '20 בנובמבר, 2025'
+    },
+    {
+        id: 2,
         type: 'video',
         src: post3,
         description: `תושבי ראש העין היקרים, 
@@ -18,14 +39,14 @@ export const Cposts: iPost[] = [
         date: '22 בספטמבר, 2025'
     },
     {
-        id: 1,
+        id: 3,
         type: 'img',
         src: post1,
         description: `עלינו ליגה: האצטדיון העירוני נחנך!`,
         date: '5 בספטמבר, 2025'
     },
     {
-        id: 2,
+        id: 4,
         type: 'img',
         src: post6,
         description: `ככה פותחים את הקיץ עם פוליקר באגם!
@@ -34,7 +55,7 @@ export const Cposts: iPost[] = [
         date: '3 ביולי, 2025'
     },
     {
-        id: 3,
+        id: 5,
         type: 'img',
         src: post5,
         description: `ממשיכים להכניס אנרגיה וספורט לשכונות!
@@ -49,7 +70,7 @@ export const Cposts: iPost[] = [
         date: `11 ביוני, 2025`
     },
     {
-        id: 4,
+        id: 6,
         type: 'img',
         src: post4,
         description: `תושבי ראש העין היקרים,
@@ -61,7 +82,7 @@ export const Cposts: iPost[] = [
         date: '11 בנובמבר, 2024'
     },
     {
-        id: 5,
+        id: 7,
         type: 'img',
         src: post2,
         description: `התוכנית להקמת מרכז תיירות, פנאי ובילוי במגדל צדק, אושרה במהלך חודש אוקטובר להפקדה בוועדה המחוזית.

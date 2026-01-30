@@ -10,10 +10,45 @@ import post7 from "../images/eStruggles/post7.mp4"
 import post8 from "../images/eStruggles/post8.jpg"
 import post9 from "../images/eStruggles/post9.jpg"
 import post10 from "../images/eStruggles/post10.jpg"
+import post13 from "../images/eStruggles/post13.jpg"
+import post14 from "../images/eStruggles/post14.jpg"
+import post15 from "../images/eStruggles/post15.jpg"
 
 export const ESposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post15,
+        description: `חלק מדברים שאמרתי בועדת הפנים והגנת הסביבה. 
+אני לא יודע אם יאמצו את השם 'הסנה' שהצעתי ליחידה שתוקם, אבל בהחלט ניכר שהפתרון שהצעתי- פינוי במקום כיבוי, כן יאומץ ויהווה את הבסיס לתכנית העבודה במלחמה על האוויר שאנחנו נושמים
+צפו>>>`,
+        link: 'https://www.facebook.com/reel/1373767487566591',
+        date: '23 בדצמבר, 2025'
+    },
+    {
+        id: 1,
+        type: 'img',
+        src: post14,
+        description: `ממשיכים במאבק על האוויר של ראש העין!
+הבוקר קיימתי סיור שטח עם נציגי המשרד להגנת הסביבה, החברה המפעילה את תחנת הניטור, נציגי מחצבות הנסון, נציגי אזור התעשייה חצב ותושבים מודאגים.
+המסר שלנו ברור: לא נשלים עם זיהום אוויר ליד בתי התושבים.
+בתום הסיור סוכם כי תוצב תחנת ניטור נוספת באזור מגדל צדק–פסגות, בסמוך לבתי המגורים, כדי לדייק את מקור הזיהום ואת רמתו בשקיפות מלאה ונתונים בזמן אמת.
+הצבנו דרישה נחרצת ממועצה אזורית דרום השרון, לניקוי מיידי ושמירה על ניקיון שוטף של הכבישים ודרכי הגישה למחצבות ולאזור התעשייה חצב – צעד הכרחי לצמצום אבק ומפגעים סביבתיים.
+עיריית ראש העין לא תרפה. נמשיך להפעיל לחץ, לדרוש אכיפה ולהוביל צעדים ברורים עד שתושבי העיר ינשמו אוויר נקי ובטוח.`,
+        date: '15 בדצמבר, 2025'
+    },
+    {
+        id: 2,
+        type: 'img',
+        src: post13,
+        description: `דרישה לצו סגירה למחצבת נחשונים והמפעלים המזהמים בא"ת חצב.
+ממשיכים לפעול למענכם בכל החזיתות!
+לכתבה המלאה>>>`,
+        link: `https://www.israelhayom.co.il/news/environment/article/19405200?fbclid=IwY2xjawPpXDZleHRuA2FlbQIxMABicmlkETFzOEM5VGNkTWVNVGI3aVVyc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHn9pkbLkkPhxtomKHmPllcPN1rRsRVQJ3sNKZT2dMns7SXmg_uXXH6n43qUp_aem_SMub5GMiI4Q6_YyfYQWDkg`,
+        date: '8 בדצמבר, 2025'
+    },
+    {
+        id: 3,
         type: 'img',
         src: post10,
         description: `תושבים יקרים, 
@@ -22,7 +57,7 @@ export const ESposts: iPost[] = [
         date: '16 באוקטובר, 2025'
     },
     {
-        id: 1,
+        id: 4,
         type: 'img',
         src: post9,
         description: `מטה המאבק, בשיתוף חברי וועדת איכות הסביבה וחברי מועצה, התייצבנו בצומת גבעת השלושה, כדי למחות כנגד הקמת תחנת הכוח המסוכנת...
@@ -31,7 +66,7 @@ export const ESposts: iPost[] = [
         date: '31 באוגוסט, 2025'
     },
     {
-        id: 2,
+        id: 5,
         type: 'img',
         src: post8,
         description: `צוות התכנון בתוכנית העתקת קווי המתח העליונים מהעיר (תת"ל 109 א') התכנס היום שוב במשרדי ודן בשתי החלופות ובלוחות הזמנים.
@@ -42,7 +77,7 @@ export const ESposts: iPost[] = [
         date: '7 באוגוסט, 2025'
     },
     {
-        id: 3,
+        id: 6,
         type: 'img',
         src: post1,
         description: `התארחתי הבוקר בערוץ הכלכלה החדש ודיברתי על ההתנגדות הנחושה שלנו לתחנת הכוח קסם, כולל הצעד החריג מול בנק הפועלים שבחר להתעלם מהציבור. צפו בראיון וביחד נמשיך להיאבק עד לביטול התחנה 💪🏻
@@ -50,7 +85,7 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: '6 באוגוסט, 2025'
     },
     {
-        id: 4,
+        id: 7,
         type: 'video',
         src: post5,
         description: `
@@ -63,14 +98,14 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: `1 באוגוסט, 2025`
     },
     {
-        id: 5,
+        id: 8,
         type: 'video',
         src: post7,
         description: `המאבק ברעש המטוסים ממשיך בכוח!`,
         date: `14 ביולי, 2025`
     },
     {
-        id: 6,
+        id: 9,
         type: 'img',
         src: post6,
         description: `בהתאם לדרישת פורום ראשי הרשויות באזור, פעלה אמש יחידת דוד ולכדה בלילה שלוש משאיות שניסו להבריח פסולת בלתי חוקית דרך כביש חוצה שומרון.
@@ -82,7 +117,7 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: `22 במאי, 2025`
     },
     {
-        id: 7,
+        id: 10,
         type: 'img',
         src: post0,
         description: `תושבות ותושבים יקרים,
@@ -98,7 +133,7 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: '3 בדצמבר, 2024'
     },
     {
-        id: 8,
+        id: 11,
         type: 'img',
         src: post2,
         description: `הבוקר, שלחתי מכתב (שני) בנושא העסקת החברה הסינית, צ׳יינה הארבור, המיועדת לקחת חלק בהקמת תחנת הכח בצומת קסם. המכתב נשלח לכל חברי ועדת חוץ ובטחון, עם העתקים לשר הביטחון, שר האנרגיה וראש המל"ל!
@@ -106,7 +141,7 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: '20 בנובמבר, 2024'
     },
     {
-        id: 9,
+        id: 12,
         type: 'img',
         src: post3,
         description: `שומרים על הסביבה בראש העין 🌎
@@ -121,7 +156,7 @@ https://www.facebook.com/watch/?v=1114766874049833`,
         date: '21 באוגוסט, 2024'
     },
     {
-        id: 10,
+        id: 13,
         type: 'video',
         src: post4,
         description: `הבוקר, בבית אל, מול וועדת התכנון העליונה ביו"ש, בדיון התנגדויות לאזור התעשייה שער שומרון, הבהרתי מעל לכל ספק - אנו נעשה הכל כדי למנוע את הקמת אזור התעסוקה המתוכנן ונדאג שהתכנית לא תצא לפועל!
