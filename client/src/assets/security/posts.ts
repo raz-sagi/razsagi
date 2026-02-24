@@ -8,10 +8,19 @@ import post5 from "../images/security/post5.jpg"
 import post6 from "../images/security/post6.jpg"
 import post8 from "../images/security/post8.jpg"
 import post9 from "../images/security/post9.jpg"
+import post10 from "../images/security/post10.jpg"
 
 export const Sposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post10,
+        description: `מרחיבים ומעמיקים את ביטחון התושבים, בשיתוף פעולה הדוק עם משטרת ישראל.`,
+        link: 'https://www.news08.net/%d7%a1%d7%95%d7%a3-%d7%9c%d7%9e%d7%a8%d7%95%d7%a6%d7%99-%d7%94%d7%9e%d7%9b%d7%95%d7%a0%d7%99%d7%95%d7%aa-%d7%95%d7%9c%d7%a9%d7%a8%d7%99%d7%a4%d7%95%d7%aa-%d7%94%d7%a4%d7%a1%d7%95%d7%9c%d7%aa-%d7%a9/?fbclid=IwY2xjawQKiQhleHRuA2FlbQIxMQBicmlkETI3bHppTVE2QUR3S2JNNGRjc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHt-X6tRc1U6CdvAgvoeh0ezIL5WmRIy1ss7F3dY6oNRb-Or-OH30Rsv0P5NY_aem_pPpO1vSXA7M4xoD7QxMUCQ',
+        date: `20 בינואר, 2026`
+    },
+    {
+        id: 1,
         type: 'img',
         src: post9,
         description: `ביום ד׳ האחרון, השלמנו הכשרת צוות רביעי ביחידת החילוץ העירונית. לראשונה, צוות בכשירות מחלץ 02 (יכולת וכשירות להפעלת אמצעי ביקוע, חיתוך וניסור חשמליים).
@@ -22,7 +31,7 @@ export const Sposts: iPost[] = [
         date: `8 בדצמבר, 2025`
     },
     {
-        id: 1,
+        id: 2,
         type: 'img',
         src: post8,
         description: `⚠️ האופוזיציה רוצה לבטל את אגרת השמירה? זה לא אומץ. זה פופוליזם מסוכן.
@@ -79,14 +88,14 @@ export const Sposts: iPost[] = [
         date: `1 בדצמבר, 2025`
     },
     {
-        id: 2,
+        id: 3,
         type: 'img',
         src: post6,
         description: `בהמשך למאמצינו להבטחת ביטחון התושבים, הוצבו מיגוניות חדשות ברחבי העיר – ברחוב המרץ 19, ברחוב צה"ל ובכיכר יורם. נמשיך לפעול בנחישות כדי לחזק את תחושת הביטחון והמוגנות של כולנו 🇮🇱 💙`,
         date: `8 בספטמבר, 2025`
     },
     {
-        id: 3,
+        id: 4,
         type: 'img',
         src: post5,
         description: `מרחב מוגן מוסדי נוסף מוצב ברגעים אלו בגן רימון הסמוך לבית ספר בעקבי הצאן. 
@@ -94,7 +103,7 @@ export const Sposts: iPost[] = [
         date: `31 ביולי, 2025`
     },
     {
-        id: 4,
+        id: 5,
         type: 'img',
         src: post4,
         description: `במהלך הימים האחרונים ביצעו עובדי העירייה, בשיתוף תאגיד המים, שדרוג מקיף במקלטים הציבוריים בעיר. הלינה בחלק מהמקלטים והשימוש המקיף העלה שורה של נושאים לטיפול:
@@ -113,7 +122,7 @@ export const Sposts: iPost[] = [
         date: `23 ביולי, 2025`
     },
     {
-        id: 5,
+        id: 6,
         type: 'video',
         src: post3,
         description: `עוד צעד חשוב בביטחון העירוני.
@@ -131,7 +140,7 @@ export const Sposts: iPost[] = [
         date: `9 ביולי, 2025`
     },
     {
-        id: 6,
+        id: 7,
         type: 'img',
         src: post2,
         description: `משמר העיר ראש העין – שומרים על הבית ביחד!
@@ -144,7 +153,7 @@ export const Sposts: iPost[] = [
         date: `6 באפריל, 2025`
     },
     {
-        id: 7,
+        id: 8,
         type: 'img',
         src: post0,
         description: `אתמול אחר הצהריים ערכנו סיור עם ניצב פרץ עמר, ראש מנהלת הגנה אזרחית, לאורך גדר המערכת, ממחסום רנתיס ועד ואדי רבה. 
@@ -153,7 +162,7 @@ export const Sposts: iPost[] = [
         date: '21 בנובמבר, 2024',
     },
     {
-        id: 8,
+        id: 9,
         type: 'video',
         src: post1,
         description: `דואגים לבטיחות הילדים! עוד ממ״מים הוצבו בגני הילדים.`,
