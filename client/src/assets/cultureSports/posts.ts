@@ -10,10 +10,23 @@ import post8 from "../images/cultureS/post8.png"
 import post9 from "../images/cultureS/post9.jpg"
 import post10 from "../images/cultureS/post10.jpg"
 import post11 from "../images/cultureS/post11.jpg"
+import post12 from "../images/cultureS/post12.jpg"
 
 export const Cposts: iPost[] = [
     {
         id: 0,
+        type: 'img',
+        src: post12,
+        description: `קצת נחת רגע לפני שנכנסת השבת:
+המבצע של המתנדבים, עובדי העירייה והמלגאים, לחלוקת שי לפסח לאנשי המילואים ומשרתי הקבע לקראת השלמה. 
+בזמן הזה סיימו המתנדבים שלנו תושבי העיר, לסרוק את היער והשטחים הפתוחים כדי לוודא שלא נותרו בהם פצצות שלא התפוצצו. 
+שבת שלום תושבים יקרים.
+בשורות טובות בתקווה שתהיה שבת שקטה ורגועה.
+ממשיכים לפעול, למענכם.`,
+        date: '27 במרץ, 2026'
+    }, 
+    {
+        id: 1,
         type: 'img',
         src: post11,
         description: `הגעתי לחגוג את ט״ו בשבט באירוע מקסים ומלא שמחה בגינה הקהילתית 🌳 בגבעת הסלעים.
@@ -23,7 +36,7 @@ export const Cposts: iPost[] = [
         date: '2 בפברואר, 2026'
     },     
     {
-        id: 1,
+        id: 2,
         type: 'img',
         src: post10,
         description: `ערב ראשון ויוצא דופן מסוגו בארץ, המהווה אבן דרך בעשייה הערכית והחברתית שלנו בעיר. 
@@ -37,7 +50,7 @@ export const Cposts: iPost[] = [
         date: '4 בינואר, 2026'
     },    
     {
-        id: 2,
+        id: 3,
         type: 'img',
         src: post9,
         description: `מקדמים את הגיל השלישי בפסגות אפק ❤️🤝
@@ -56,7 +69,7 @@ export const Cposts: iPost[] = [
         date: '4 בינואר, 2026'
     },
     {
-        id: 3,
+        id: 4,
         type: 'img',
         src: post8,
         description: `הצעתם להביא לעיר פאדל?! 
@@ -66,7 +79,7 @@ export const Cposts: iPost[] = [
         date: '25 בדצמבר, 2025'
     },
     {
-        id: 4,
+        id: 5,
         type: 'img',
         src: post7,
         description: `שמח לעדכן כי הספרייה העירונית ברחוב זכריה משה, נפתחה השבוע לאחר שיפוץ עמוק ובסוף דצמבר, תיפתח הסיפרייה החדשה... 
@@ -75,7 +88,7 @@ export const Cposts: iPost[] = [
         date: '20 בנובמבר, 2025'
     },
     {
-        id: 5,
+        id: 6,
         type: 'video',
         src: post3,
         description: `תושבי ראש העין היקרים, 
@@ -85,14 +98,14 @@ export const Cposts: iPost[] = [
         date: '22 בספטמבר, 2025'
     },
     {
-        id: 6,
+        id: 7,
         type: 'img',
         src: post1,
         description: `עלינו ליגה: האצטדיון העירוני נחנך!`,
         date: '5 בספטמבר, 2025'
     },
     {
-        id: 7,
+        id: 8,
         type: 'img',
         src: post6,
         description: `ככה פותחים את הקיץ עם פוליקר באגם!
@@ -101,7 +114,7 @@ export const Cposts: iPost[] = [
         date: '3 ביולי, 2025'
     },
     {
-        id: 8,
+        id: 9,
         type: 'img',
         src: post5,
         description: `ממשיכים להכניס אנרגיה וספורט לשכונות!
@@ -116,7 +129,7 @@ export const Cposts: iPost[] = [
         date: `11 ביוני, 2025`
     },
     {
-        id: 9,
+        id: 10,
         type: 'img',
         src: post4,
         description: `תושבי ראש העין היקרים,
@@ -128,7 +141,7 @@ export const Cposts: iPost[] = [
         date: '11 בנובמבר, 2024'
     },
     {
-        id: 10,
+        id: 11,
         type: 'img',
         src: post2,
         description: `התוכנית להקמת מרכז תיירות, פנאי ובילוי במגדל צדק, אושרה במהלך חודש אוקטובר להפקדה בוועדה המחוזית.
